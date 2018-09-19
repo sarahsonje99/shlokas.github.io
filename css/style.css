@@ -370,7 +370,7 @@ canvas {
 
 .holder {
   display: grid;
-  grid-template-rows: 10% 90%;
+  grid-template-rows: 20% 90%;
 }
 
 .holder:first-child .digit {
@@ -393,10 +393,10 @@ canvas {
 
 .content {
   width: 64vw;
-  height: 80vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
-  padding: 20px 30px !important;
+  /* padding: 20px 30px !important; */
   justify-content: center;
 }
 
@@ -514,7 +514,7 @@ canvas {
 }
 
 #sponsorlogo {
-  height: 100px;
+  height: 90px;
   width: auto;
   margin: 7px;
 }
