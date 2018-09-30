@@ -370,7 +370,7 @@ canvas {
 
 .holder {
   display: grid;
-  grid-template-rows: 20% 90%;
+  grid-template-rows: 10% 90%;
 }
 
 .holder:first-child .digit {
@@ -396,7 +396,7 @@ canvas {
   height: 90vh;
   display: flex;
   flex-direction: column;
-  /* padding: 20px 30px !important; */
+  padding: 20px 30px !important;
   justify-content: center;
 }
 
@@ -514,7 +514,7 @@ canvas {
 }
 
 #sponsorlogo {
-  height: 90px;
+  height: 100px;
   width: auto;
   margin: 7px;
 }
@@ -560,7 +560,7 @@ canvas {
 
   #team .title,
   #team .name {
-    font-size: 0.6rem;
+    font-size: 0.56rem;
   }
 }
 
@@ -589,6 +589,11 @@ canvas {
   #particles-js {
     background-size: 100%;
     background-position: 50% 90%;
+  }
+
+  .fancy-button {
+    padding: 6px;
+    margin: 4px;
   }
 
   #sponsorlogo {
