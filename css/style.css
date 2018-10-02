@@ -370,7 +370,7 @@ canvas {
 
 .holder {
   display: grid;
-  grid-template-rows: 10% 90%;
+  grid-template-rows: 25% 75%;
 }
 
 .holder:first-child .digit {
